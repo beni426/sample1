@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get '/',to:"blogs#index"
-   resources :blogs do
+  get '/',to:"tasks#index"
+   resources :tasks do
       collection do
          post :confirm
     end
